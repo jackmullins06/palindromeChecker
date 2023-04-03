@@ -2,7 +2,7 @@
 #include <string>
 
 std::string promtForInput() {
-    std::cout << "Please enter a string:" << std::endl;
+    std::cout << "Please enter a string: ";
     
     std::string input;
     std::getline(std::cin, input);
